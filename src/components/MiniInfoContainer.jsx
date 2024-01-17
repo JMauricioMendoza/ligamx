@@ -1,26 +1,20 @@
 import styled from 'styled-components';
 
-const MiniInfoContainer = ({dato, etiqueta}) => {
-  return(
-    <InfoContainer>
-
-      <Info>
-        {dato}
-      </Info>
-
-      <Tag>
-        {etiqueta}
-      </Tag>
-    </InfoContainer>
+const MiniInfoContainer = ({ dato, etiqueta }) => {
+  return (
+    <Container>
+      <Info>{dato}</Info>
+      <Tag>{etiqueta}</Tag>
+    </Container>
   );
 };
 
 export default MiniInfoContainer;
 
-const InfoContainer = styled.span`
+const Container = styled.span`
+  color: #DDDDDD;
   display: flex;
   flex-direction: column;
-  color: #dddddd;
 `;
 
 const Info = styled.span`
@@ -28,5 +22,5 @@ const Info = styled.span`
 `;
 
 const Tag = styled.span`
-  font-size: .8125em;
+  font-size: 0.8125em;
 `;

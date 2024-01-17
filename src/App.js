@@ -1,46 +1,45 @@
-import Lista from './components/Lista';
+import React from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
+import Lista from './components/Lista';
 
 const App = () => {
-
   return (
     <>
-      <GlobalStyle/>
-
+      <GlobalStyle />
       <MainContainer>
-        <Lista/>
+        <Lista />
       </MainContainer>
-    </>   
+    </>
   );
-}
+};
 
 export default App;
 
 const GlobalStyle = createGlobalStyle`
-  *{
-    margin: 0;
-    padding: 0;
+  * {
     box-sizing: border-box;
     font-family: 'Wix Madefor Display', sans-serif;
+    margin: 0;
+    padding: 0;
     user-select: none;
   }
   
   body {
-    background-image: url("https://cnnespanol.cnn.com/wp-content/uploads/2020/05/200526171830-liga-mx-ball-deportes-full-169.jpg?quality=100&strip=info");
-    background-size: cover;
     background-attachment: fixed;
+    background-image: url("https://cnnespanol.cnn.com/wp-content/uploads/2020/05/200526171830-liga-mx-ball-deportes-full-169.jpg?quality=100&strip=info");
     background-repeat: no-repeat;
+    background-size: cover;
   }
 `;
 
 const MainContainer = styled.div`
   display: flex;
-  justify-content: center;
-  width: 100%;
-  padding: 50px 0 100px;
   font-size: 16px;
+  justify-content: center;
+  padding: 50px 0 100px;
+  width: 100%;
 
-  @media(max-width: 500px) {
+  @media (max-width: 500px) {
     font-size: 14px;
-  };
+  }
 `;

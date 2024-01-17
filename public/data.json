@@ -1,16 +1,12 @@
 [
   [
-    {"equipoLocal" : "América", "golLocal" : 1, "equipoVisita": "Juárez", "golVisita" : 2},
-    {"equipoLocal" : "Mazatlán", "golLocal" : 1, "equipoVisita": "Pachuca", "golVisita" : 1},
-    {"equipoLocal" : "Tijuana", "golLocal" : 2, "equipoVisita": "Pumas", "golVisita" : 3},
-    {"equipoLocal" : "Atl. San Luis", "golLocal" : 1, "equipoVisita": "Monterrey", "golVisita" : 1},
-    {"equipoLocal" : "Tigres", "golLocal" : 1, "equipoVisita": "Puebla", "golVisita" : 1},
-    {"equipoLocal" : "Atlas", "golLocal" : 2, "equipoVisita": "Cruz Azul", "golVisita" : 0},
-    {"equipoLocal" : "Toluca", "golLocal" : 0, "equipoVisita": "Necaxa", "golVisita" : 0},
-    {"equipoLocal" : "Santos", "golLocal" : 0, "equipoVisita": "Querétaro", "golVisita" : 2},
-    {"equipoLocal" : "León", "golLocal" : 1, "equipoVisita": "Guadalajara", "golVisita" : 2}
-  ],
-  [
-    {"equipoLocal" : "Puebla", "golLocal" : 2, "equipoVisita": "Santos", "golVisita" : 3}
+    {"equipoLocal" : "Querétaro", "golLocal" : 2, "equipoVisita": "Toluca", "golVisita" : 2},
+    {"equipoLocal" : "Mazatlán", "golLocal" : 0, "equipoVisita": "Atl. San Luis", "golVisita" : 1},
+    {"equipoLocal" : "Cruz Azul", "golLocal" : 0, "equipoVisita": "Pachuca", "golVisita" : 1},
+    {"equipoLocal" : "Guadalajara", "golLocal" : 1, "equipoVisita": "Santos", "golVisita" : 1},
+    {"equipoLocal" : "Tijuana", "golLocal" : 0, "equipoVisita": "América", "golVisita" : 2},
+    {"equipoLocal" : "Monterrey", "golLocal" : 2, "equipoVisita": "Puebla", "golVisita" : 0},
+    {"equipoLocal" : "Pumas", "golLocal" : 1, "equipoVisita": "Juárez", "golVisita" : 0},
+    {"equipoLocal" : "Necaxa", "golLocal" : 2, "equipoVisita": "Atlas", "golVisita" : 1}
   ]
 ]
